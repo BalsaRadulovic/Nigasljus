@@ -2,20 +2,61 @@ body {
     text-align: center;
     background-color: whitesmoke;
     font-family: sans-serif;
+    margin: 0;
 }
 h1 {
-    color: rgb(92, 74, 226);
-    font-size: 6.7rem;
+    margin: 0;
+    margin-top: 1.67rem;
+    font-size: 2.32rem;
+    color: rgb(210, 82, 82);
 }
 ul {
     padding: 0;
     list-style: none;
+     text-align: center;
 }
-li {
-    font-size: 4.1rem;
+.clan {
+    font-size: 1.67rem;
 }
 p {
     margin-top: 2rem;
     font-size: 1.3rem;
-    color: red;
+}
+header {
+    background-color: rgb(195, 195, 195);
+    height: 4.167rem;
+}
+img {
+    margin: 1.41rem;
+    width: 22rem;
+    height: 15rem;
+}
+.header {
+    font-size: 2rem;
+    margin: 0.67rem;
+    padding: 0.367rem;
+    border-radius: 6.767px;
+    transition: transform 0.67s;
+    background-color: whitesmoke;
+}
+#header {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+     color: rgb(210, 82, 82);
+}
+.header:hover {
+    transform: scale(1.067);
+} 
+h2 {
+    font-size: 2.4167rem;
+}
+.lista {
+     background-color: gainsboro;
+    width: 41%;
+    margin: auto;
+    border-radius: 10px;
 }
