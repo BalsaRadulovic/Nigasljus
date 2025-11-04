@@ -6,8 +6,7 @@ body {
 }
 h1 {
     margin: 0;
-    margin-top: 1.67rem;
-    font-size: 2.32rem;
+    font-size: 2.9rem;
     color: rgb(210, 82, 82);
 }
 ul {
@@ -53,10 +52,14 @@ a {
 } 
 h2 {
     font-size: 2.4167rem;
+    color: rgb(210, 82, 82);
 }
 .lista {
      background-color: gainsboro;
     width: 41%;
     margin: auto;
     border-radius: 10px;
+}
+.lista h2 {
+    color: black;
 }
