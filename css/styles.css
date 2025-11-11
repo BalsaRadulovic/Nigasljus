@@ -63,3 +63,16 @@ h2 {
 .lista h2 {
     color: black;
 }
+#dugme {
+   transition: transform 0.67s; 
+   display: block;
+   margin: auto;
+   margin-top: 27px;
+   margin-bottom: 5px;
+}
+#dugme:hover {
+    transform: scale(1.067);
+}
+tr {
+    width: 100%;
+}
