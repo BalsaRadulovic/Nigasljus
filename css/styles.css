@@ -76,3 +76,23 @@ h2 {
 tr {
     width: 100%;
 }
+
+th, td {
+    outline: 2px solid black;
+}
+
+table {
+    margin: auto;
+}
+
+table:hover {
+    cursor: pointer;
+}
+
+td:hover, th:hover {
+    background-color: aqua;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(224, 224, 224);
+}
